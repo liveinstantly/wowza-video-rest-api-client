@@ -213,7 +213,7 @@ Below is an example of the non-compliance definition and recommended fixes.
         }
 ```
 
-## Recommended fixes
+## Other Recommended modifications
 
 There are some recommended fixes in Wowza Video REST API spec (swagger.json) for OpenAPI Generator Tools to create API client source code templates, since schema names, schema object titles, and operation ids are not appropriate.
 
