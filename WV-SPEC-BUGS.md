@@ -1,6 +1,6 @@
 # Bugs & Recommended fixes in Wowza Video REST API spec JSON (swagger.json)
 
-Wowza Video REST API endpoint provides OpenAPI spec v3 JSON file at the URL, [https://api.docs.video.wowza.com/]](https://api.docs.video.wowza.com/). You can download an Open API spec JSON file by clicking "**Download**" button. But, there are some problems (or bugs) in the Wowza Video's Open API spec JSON file, when using it to generate source codes with OpenAPI Generator tools. Some of this problems and/or bugs are related with Open API spec compliances.
+Wowza Video REST API endpoint provides OpenAPI spec v3 JSON file at the URL, [https://api.docs.video.wowza.com/](https://api.docs.video.wowza.com/). You can download an Open API spec JSON file by clicking "**Download**" button. But, there are some problems (or bugs) in the Wowza Video's Open API spec JSON file, when using it to generate source codes with OpenAPI Generator tools. Some of this problems and/or bugs are related with Open API spec compliances.
 
 This document describes the details of bugs and problems in Wowza Video OpenAPI spec file.
 
