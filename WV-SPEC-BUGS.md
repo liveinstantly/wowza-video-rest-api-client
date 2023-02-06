@@ -69,7 +69,9 @@ Below is an example of the non-compliance definition and recommended fixes.
       },
 ```
 
-### 2. Invalid schema definitions
+### Mismatch bugs (mis-match type definitions wtih examples)
+
+#### 1. Invalid schema definitions
 
 Under the following schema definitions in the spec, there are invalid schema bugs.
 
@@ -145,7 +147,7 @@ Below is an example of the non-compliance definition and recommended fixes.
 
 ```
 
-### 3. Single object type definitions instead of "array" type definition
+#### 2. Single object type definitions instead of "array" type definition
 
 Under the following schema definitions in the spec, there are single object type definitions, while API expects **Array** response at the target properties.
 This is because examples of API responses explain in the Wowza Video REST API spec file (swagger.json) that it returns **Array** but the schema does not define **Array**.
