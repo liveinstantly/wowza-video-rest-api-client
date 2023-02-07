@@ -27,6 +27,11 @@ yarn
 yarn run og
 ```
 
+This command will generate the API client source code templates under "**./snapshots**" folder.
+As of Feb 7, 2023, there are some recommended improvments in the code templates. We will do more improvement later for a future NPM packaged version.
+
+Our generated codes can be found under under "**./snapshots**" folder.
+
 ## References: Wowza Video REST API
 
 ### Release Notes
