@@ -1,0 +1,123 @@
+{
+  "$schema": "./node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "6.2.1",
+    "generators": {
+      "v1.9": {
+        "generatorName": "typescript-fetch",
+        "output": "./snapshots/WowzaVideoApiClient-v1.9",
+        "inputSpec": "./modified-api-specs/WowzaVideo-REST-v1.9-swagger-20230118-bugfixed-updates.json",
+        "additionalProperties": {
+          "npmName": "@liveinstantly/wowza-video-api-client",
+          "npmVersion": "1.9.0",
+          "snapshot": false,
+          "supportsES6": true
+        },
+        "inlineSchemaNameMappings": {
+          "direct_playback_url_1": "direct_playback_url",
+          "direct_playback_urls_1": "direct_playback_urls",
+          "live_stream_control_state_1": "live_stream_control_state",
+          "transcoder_control_state_1": "transcoder_control_state",
+          "transcoder_recording_state_1": "transcoder_recording_state",
+          "transcoder_recording_state_1_recording": "transcoder_recording_state_recording",
+          "output_stream_target_control_state_1": "output_stream_target_control_state",
+          "schedule_state_1": "schedule_state",
+          "stream_target_akamai_playback_urls_1": "stream_target_akamai_playback_urls",
+          "usage_viewers_country_1": "usage_viewers_country",
+          "usage_viewers_data_current_1": "usage_viewers_data_current",
+          "usage_viewers_trends_1": "usage_viewers_trends",
+
+          "createLiveStream_201_response": "live_stream_response",
+          "showLiveStream_200_response": "live_stream_response",
+          "updateLiveStream_200_response": "live_stream_response",
+          "startLiveStream_200_response": "live_stream_control_response",
+          "stopLiveStream_200_response": "live_stream_control_response",
+          "resetLiveStream_200_response": "live_stream_control_response",
+          "regenerateConnectionCodeLiveStream_200_response": "live_stream_regenerate_connection_code_response",
+          "showLiveStreamThumbnailUrl_200_response": "live_stream_thumbnail_url_response",
+          "showLiveStreamState_200_response": "live_stream_state_response",
+          "showLiveStreamStats_200_response": "live_stream_stats_response",
+
+          "showPlayer_200_response": "player_response",
+          "updatePlayer_200_response": "player_response",
+          "requestPlayerRebuild_200_response": "player_rebuild_response",
+          "showPlayerState_200_response": "player_state_response",
+          "createPlayerUrl_200_response": "player_url_response",
+          "showPlayerUrl_200_response": "player_url_response",
+          "updatePlayerUrl_200_response": "player_url_response",
+
+          "createTranscoder_201_response": "transcoder_response",
+          "showTranscoder_200_response": "transcoder_response",
+          "updateTranscoder_200_response": "transcoder_response",
+          "enableAllStreamTargetsTranscoder_200_response": "transcoder_enable_all_stream_target_response",
+          "disableAllStreamTargetsTranscoder_200_response": "transcoder_disable_all_stream_target_response",
+          "startTranscoder_200_response": "transcoder_control_response",
+          "stopTranscoder_200_response": "transcoder_control_response",
+          "resetTranscoder_200_response": "transcoder_control_response",
+          "startTranscoderRecording_200_response": "transcoder_recording_state_response",
+          "stopTranscoderRecording_200_response": "transcoder_recording_state_response",
+          "listTranscoderRecordings_200_response": "transcoder_recordings_list_response",
+          "listTranscoderSchedules_200_response": "transcoder_schedules_list_response",
+          "showTranscoderThumbnailUrl_200_response": "transcoder_thumbnail_url_response",
+          "showTranscoderState_200_response": "transcoder_state_response",
+          "showTranscoderStats_200_response": "transcoder_stats_response",
+          "showTranscoderUptime_200_response": "transcoder_uptime_response",
+          "showTranscoderUptimeMetricsCurrent_200_response": "transcoder_uptime_metrics_current_response",
+          "showTranscoderUptimeMetricsHistoric_200_response": "transcoder_uptime_metrics_historic_response",
+          "createTranscoderOutput_201_response": "transcoder_output_response",
+          "showTranscoderOutput_200_response": "transcoder_output_response",
+          "updateTranscoderOutput_200_response": "transcoder_output_response",
+          "createTranscoderOutputOutputStreamTarget_201_response": "transcoder_outputs_output_stream_target_response",
+          "showTranscoderOutputOutputStreamTarget_200_response": "transcoder_outputs_output_stream_target_response",
+          "updateTranscoderOutputOutputStreamTarget_200_response": "transcoder_outputs_output_stream_target_response",
+          "enableTranscoderOutputOutputStreamTarget_200_response": "transcoder_outputs_output_stream_target_control_response",
+          "disableTranscoderOutputOutputStreamTarget_200_response": "transcoder_outputs_output_stream_target_control_response",
+          "restartTranscoderOutputOutputStreamTarget_200_response": "transcoder_outputs_output_stream_target_control_response",
+          "createTranscoderProperty_200_response": "transcoder_property_create_response",
+          "createTranscoderProperty_request": "transcoder_property_create_request",
+
+          "createWowzaStreamSource_201_response": "stream_source_wowza_response",
+          "showWowzaStreamSource_200_response": "stream_source_wowza_response",
+          "updateWowzaStreamSource_200_response": "stream_source_wowza_response",
+
+          "createCustomStreamTarget_201_response": "stream_target_custom_response",
+          "showCustomStreamTarget_200_response": "stream_target_custom_response",
+          "updateCustomStreamTarget_200_response": "stream_target_custom_response",
+          "createFastlyStreamTarget_201_response": "stream_target_fastly_response",
+          "showFastlyStreamTarget_200_response": "stream_target_fastly_response",
+          "updateFastlyStreamTarget_200_response": "stream_target_fastly_response",
+          "showWowzaStreamTarget_200_response": "stream_target_wowza_response",
+          "updateWowzaStreamTarget_200_response": "stream_target_wowza_update_response",
+          "regenerateConnectionCodeStreamTarget_200_response": "stream_target_regenerate_connection_code_response",
+          "createStreamTargetProperty_200_response": "stream_target_property_create_response",
+          "createStreamTargetProperty_request": "stream_target_property_create_request",
+
+          "createAsset_201_response": "asset_create_response",
+          "showAsset_200_response": "asset_response",
+          "updateAsset_200_response": "asset_update_response",
+          "restreamAsset_200_response": "asset_live_stream_response",
+          "reportUploadedAsset_200_response": "asset_report_uploaded_response",
+          "reportUploadFailedAsset_200_response": "asset_report_upload_failed_response",
+
+          "showRecording_200_response": "recording_response",
+          "showRecordingState_200_response": "recording_state_response",
+
+          "createSchedule_201_response": "schedule_response",
+          "showSchedule_200_response": "schedule_response",
+          "updateSchedule_200_response": "schedule_response",
+          "enableSchedule_200_response": "schedule_state_response",
+          "disableSchedule_200_response": "schedule_state_response",
+          "showScheduleState_200_response": "schedule_state_response",
+
+          "showVODStream_200_response": "vod_stream_response",
+          "updateVODStream_200_response": "vod_stream_response",
+
+          "createRealTimeStream_201_response": "real_time_stream_response",
+          "showRealTimeStream_200_response": "real_time_stream_response",
+          "updateRealTimeStream_200_response": "real_time_stream_response"
+        }
+      }
+    }
+  }
+}
