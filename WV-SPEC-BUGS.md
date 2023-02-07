@@ -69,7 +69,10 @@ Below is an example of the non-compliance definition and recommended fixes.
       },
 ```
 
-### 2. Invalid "**allOf**" directives
+### 2. Needless "**allOf**" directives in the schema definitions
+
+The following schema definitions use "**allOf**" directives but there is no requirement of "**allOf**" since all "**allOf**" occurences contains only one object.
+We don't know an intention of the Wowza's spec what they want to do. But, it can be removed to make it simple for code generator.
 
 * *components/schemas/url_create_input*
 * *components/schemas/url_update_input*
