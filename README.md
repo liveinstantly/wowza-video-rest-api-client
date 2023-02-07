@@ -14,13 +14,18 @@ That is my motivation and background to open and publish this repository to shar
 
 Currently, we are developing a NPM module package of Wowza Video REST API Client. We will publish NPM package soon...!
 
-## Description of Bugs and/or recommended fixes in Wowza Video OpenAPI JSON
+## Bugs and Recommended fixes in Wowza Video OpenAPI JSON
 
-Please see [this document](WV-SPEC-BUGS.md).
+Please see the separated document [(WV-SPEC-BUGS.md)](WV-SPEC-BUGS.md).
 
 ## How to run OpenAPI Generator tools
 
-(Work in progress)
+Please run the following commands:
+
+```shellscript
+yarn
+yarn run og
+```
 
 ## References: Wowza Video REST API
 
