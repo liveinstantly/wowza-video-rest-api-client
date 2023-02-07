@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "og": "openapi-generator-cli generate > snapshots/og-cli.log"
+    },
+    "devDependencies": {
+        "@openapitools/openapi-generator-cli": "^2.5.2"
+    }
+}
