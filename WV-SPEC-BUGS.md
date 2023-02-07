@@ -83,6 +83,8 @@ We don't know an intention of the Wowza's spec what they want to do. But, it can
 * *components/schemas/output_stream_target_create_input*
 * *components/schemas/output_stream_target_update_input*
 
+Below is a fix of the original schema definition and recommended fixes.
+
 * Original schema:
 
 ```json
