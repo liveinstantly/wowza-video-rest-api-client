@@ -36,4 +36,4 @@ Our generated codes can be found under under "**./snapshots**" folder.
 
 ### Release Notes
 
-You can refer the Release Notes of WOwza Video REST API from here ([https://www.wowza.com/docs/wowza-video-rest-api-release-notes](https://www.wowza.com/docs/wowza-video-rest-api-release-notes)).
+You can refer the Release Notes of Wowza Video REST API from here ([https://www.wowza.com/docs/wowza-video-rest-api-release-notes](https://www.wowza.com/docs/wowza-video-rest-api-release-notes)).
